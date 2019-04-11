@@ -1,5 +1,5 @@
 {
-  "name": "node-es6-starter",
+  "name": "ecg-split",
   "version": "1.0.0",
   "description": "Node.js ES6 starter with Babel & ESLint",
   "main": "lib/index.js",
@@ -26,12 +26,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/palanik/node-es6-starter.git"
+    "url": "https://github.com/explooosion/ecg-split.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
-  "author": "N. Palani Kumanan",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
