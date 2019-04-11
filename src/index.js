@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 import fs from 'fs';
 import path from 'path';
 import Worker from './Worker';
@@ -26,4 +28,4 @@ const Jobs = fs.readdirSync(Path)
 // console.log(Jobs);
 
 // 批次處理每個資料夾內的所有檔案
-Jobs.forEach(job => job.files.map(file => new Worker(job.stage, file, 5).run()));
+Jobs.forEach(job => job.files.map(file => new Worker(job.stage, file, process.env.MIN).run()));
