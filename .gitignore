@@ -2,7 +2,8 @@
 out/**/*.dat
 out/**/*.json
 
-src/data
+# config
+.env
 
 # Logs
 logs
